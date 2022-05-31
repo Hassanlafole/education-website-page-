@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    background-image: url(./images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.me{
+    background-color: black;
+}
+.top{
+    width: 90vw;
+    margin: auto;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.top-left i {
+    margin-top: 17px;
+    margin-right: 30px;
+}
+.top-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-right #id{
+    margin-right: 20px;
+    margin-top: 2px;
+}
+/* top end */
+.header{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.active  {
+    background-color: orangered;
+    /* padding: 5px 7px; */
+}
+nav ul li a{
+    padding: 5px 7px;
+}
+nav ul li a:hover{
+    background-color: orangered;
+}
+/* header end */
+.hero{
+    width: 90vw;
+    margin: auto;
+    height: 500px;
+    color: white;
+}
+.hero h1{
+    padding-top: 80px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.hero p{
+    margin-bottom: 15px;
+    color: gray;
+}
+.hero button{
+    background-color: orangered;
+    color: white;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 2px;
+}
+.hero button:hover{
+    background-color: white;
+    color: orangered;
+}
+/* hero end */
+.showcase{
+    height: 150px;
+    margin-top: -2.6em;
+    margin-bottom: 22px;
+}
+
+.boxes{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    text-align: center;
+    
+    height: 170px;
+    width: 25%;
+    padding: 0px 20px;
+    margin-left: 6%;
+    box-shadow: 0.2px 0.1px 1px 2px lightgrey;
+}
+.box h3{
+    background-color:  rgba(211, 211, 211, 0.877);
+    padding: 10px ;
+    margin: 0px -20px;
+   margin-bottom: 20px;
+   color: white;
+   
+}
+.box p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.box:hover{
+    background-color:rgba(206, 189, 182, 0.616);
+}
+/* showcase end */
+footer{
+    background-color: purple;
+}
+.footer{
+    background-color: rgb(41, 30, 19);
+    margin: auto;
+    width: 90vw;
+    height: 500px;
+}
+.first-footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.calling i,.message i,.location i{
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin-top: 30px; */
+    margin-bottom: 16px;
+}
+.fa-phone,.fa-envelope,.fa-map-marker-alt{
+    background-color: orangered;
+    color:white;
+    font-size: 25px;
+}
+.calling p,.message p,.location p{
+    color: white;
+}
+.second-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+.column1 h3,.column2 h3,.column3 h3,.column4 h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.column1 p, .column2 p,.column3 p,.column4 p{
+    color: gray;
+    margin-bottom: 3px;
+}
+.btn{
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 9px 84px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* input[type=email]{
+    width: 85%;
+    height: 36px;
+    margin-bottom: 10px;
+    border: none;
+} */
+/* sub-footer start */
+sub-footer{
+    background-color: indianred;
+}
+.sub-footer{
+    background-color: rgb(133, 83, 33);
+    margin: auto;
+    width: 90vw;
+    height: 200px;
+    text-align: center;
+}
+.sub-footer i{
+    margin-top: 100px;
+    padding-right: 25px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+/* .fa-arrow-circle-up{
+    margin-left: 1010px;
+    width: 40px;
+    border-radius: 60px;
+    background-color: white;
+    color: orangered;
+} */
